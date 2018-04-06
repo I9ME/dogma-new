@@ -1,0 +1,58 @@
+.single-product{
+	& table{
+		&.variations_{
+			& tbody{
+				& tr{
+					padding: 0px;
+					margin: 0;
+					&:nth-child(odd){
+						background: #EEEEEE;
+					}
+					&:nth-child(even){
+						background: #f9f9f9;
+					}
+					& td{
+						background: none !important;
+						padding: 5px 0px 5px 10px;
+						& input[type="number"]{
+							background: $color_1;
+							margin: 0 10px 0 0;
+							border: 1px solid #DDD;
+							padding: 5px;
+						}
+						@media screen and (min-width: $break-sm){
+							padding: 5px 20px;
+						}
+					}
+				}
+			}
+			& .attr_{
+				&._attr-attribute_tamanho{
+					font-weight: bold;
+				}
+			}
+			& form{
+				&.cart_{
+					margin: 0px !important;
+					padding: 0px !important;
+				}
+				& .Button--background{
+					border: 2px solid $color_11;
+					background: none;
+					color: $color_11;
+					padding: 0px 7.5px;
+					font-size: 13px;
+					&:hover{
+						background: $color_2;
+						color: $color_1;
+						border: 2px solid $color_2;
+					}
+					@media screen and (min-width: $break-sm){
+						padding: 0px 15px;
+						font-size: 14px;
+					}
+				}
+			}
+		}
+	}
+}

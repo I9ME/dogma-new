@@ -1,0 +1,147 @@
+.owl-dots{
+	position:relative;
+	display: flex;
+	justify-content: center;
+	margin: 0px;
+	@media screen and (min-width: $break-sm){
+		margin: $v_spacing / 2 0px;
+	}
+
+	flex-direction: row;
+}
+.owl-dot{
+	width: 25px;
+	height: 25px;
+	border-radius: 25px;
+	margin: 0 5px;
+	background: rgba(0,0,0,0.15);
+	&.active{
+		background: rgba(0,0,0,0.5);
+	}
+	@media screen and (min-width: $break-sm){
+		width:15px;
+		height: 15px;
+		border-radius: 15px;
+	}
+}
+
+#cases-videos-carousel .owl-dots{
+	flex-direction: row-reverse;
+}
+
+.Lightbox{
+	display: block;
+	z-index: 9999997;
+	&-window{
+		opacity: 0;
+		z-index: 9999999;
+		width:0px;
+		height:0px;
+		&-content{
+			&:before{
+				display: table;
+				content: "";
+				padding-top: 56.25%;
+				//padding-top: 56.25%;
+				width: 100%;
+			}
+			& iframe{
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				border: 0;
+				// width: 100%;
+				// height: 100%;
+			}
+		}
+	}
+	&-mask{
+		opacity: 0;
+		z-index: 9999998;
+	}
+	&--active{
+		height: 100%;
+		& .Lightbox-window{
+			opacity: 1;
+			width: $sizeColumns * 22;
+			height: auto;
+		}
+		& .Lightbox-mask{
+			opacity: 1;
+		}
+
+	}
+	&--inactive{
+		height: 0%;
+		-moz-transition-delay: 1s;
+		-webkit-transition-delay: 1s;
+		-o-transition-delay: 1s;
+		transition-delay: 1s;
+	}
+	&--style1{
+		& .Lightbox-window{
+			&-content{
+			}
+		}
+		& .Lightbox-mask{
+			background: rgba(0,0,0,0.75);
+		}
+	}
+
+	@media screen and (min-width: $break-sm){
+
+		&-window{
+
+			&-content{
+			}
+		}
+
+		&--active{
+			display: block;
+
+			& .Lightbox-window{
+				width: $sizeColumns * 15 !important;
+			 }
+		}
+
+	}
+
+	@media screen and (min-width: $break-md){
+
+		&-window{
+
+			&-content{
+			}
+		}
+
+		&--active{
+			display: block;
+
+			& .Lightbox-window{
+				width: $sizeColumns * 15 !important;
+			 }
+		}
+
+	}
+
+	&-closeButton{
+		position: absolute;
+		display: block;
+		color: $color_1;
+		font-size: 38px;
+		width: 38px;
+		height: 38px;
+		top: -38px;
+		left: 0px;
+		& svg{
+			font-size: 38px;
+			& use{
+				width:38px;
+				height: 38px;
+			}
+		}
+	}
+}

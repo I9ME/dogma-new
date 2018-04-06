@@ -1,0 +1,37 @@
+
+.is-animating,
+.is-animating:before,
+.is-animating:after{
+	-moz-transition: all $time_animate;
+	-webkit-transition: all $time_animate;
+	-o-transition: all $time_animate;
+	transition: all $time_animate;
+}
+
+.is-animating--time2{
+	-moz-transition: all $time_animate * 1.5;
+	-webkit-transition: all $time_animate * 1.5;
+	-o-transition: all $time_animate * 1.5;
+	transition: all $time_animate * 1.5;
+}
+
+.is-animating--time3{
+	-moz-transition: all $time_animate * 2;
+	-webkit-transition: all $time_animate * 2;
+	-o-transition: all $time_animate * 2;
+	transition: all $time_animate * 2;
+}
+
+.is-animating--time4{
+	-moz-transition: all $time_animate * 2.5;
+	-webkit-transition: all $time_animate * 2.5;
+	-o-transition: all $time_animate * 2.5;
+	transition: all $time_animate * 2.5;
+}
+
+.is-animating--time5{
+	-moz-transition: all $time_animate * 3;
+	-webkit-transition: all $time_animate * 3;
+	-o-transition: all $time_animate * 3;
+	transition: all $time_animate * 3;
+}

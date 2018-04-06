@@ -1,0 +1,231 @@
+
+/*=======================
+Espaçamentos Verticais
+=======================*/
+
+
+/*=====
+Margin
+=====*/
+
+.u-marginVertical {
+    margin-left: $h_spacing;
+    margin-right: $h_spacing;
+        &--inter {
+            margin-left: $h_spacing / 2;
+            margin-right: $h_spacing / 2;
+        }
+        &--hzt {
+            margin: $v_spacing $h_spacing $v_spacing $h_spacing;
+        }
+
+}
+
+.u-marginLeft {
+    margin-left: $h_spacing;
+        &--inter {
+            margin-left: $h_spacing / 2;
+        }
+}
+
+.u-marginRight {
+    margin-right: $h_spacing;
+        &--inter {
+        margin-right: $h_spacing / 2;
+        }
+
+}
+
+
+/*=====
+Padding
+=====*/
+
+
+.u-paddingVertical {
+    padding-left: $h_spacing;
+    padding-right: $h_spacing;    
+    &--inter {
+        padding-left: $h_spacing / 2;
+        padding-right: $h_spacing / 2;
+        &--px{
+            padding-left: $v_spacing / 2;
+            padding-right: $v_spacing / 2;   
+        }
+        &--half{
+            padding-left: $h_spacing / 4;
+            padding-right: $h_spacing / 4;
+             &--px{
+                padding-left: $v_spacing / 4;
+                padding-right: $v_spacing / 4;
+            }
+        }
+    }
+    &--px{
+        padding-left: $v_spacing;
+        padding-right: $v_spacing;   
+    }
+    &--hzt {
+            padding: $v_spacing $h_spacing $v_spacing $h_spacing;
+    }
+}
+
+.u-paddingLeft {
+    padding-left: $h_spacing;    
+    &--inter {
+        padding-left: $h_spacing / 2;
+        &--half{
+            padding-left: $h_spacing / 2;
+        }
+        &--px{
+            padding-left: $v_spacing / 2;
+        }
+    }
+    &--px{
+        padding-left: $v_spacing;
+    }
+}
+
+.u-paddingRight {
+    padding-right: $h_spacing;
+        &--inter {
+            padding-right: $h_spacing / 2;
+        &--half{
+            padding-right: $h_spacing / 2;
+        }
+        &--px{
+            padding-right: $v_spacing / 2;
+        }
+    }
+    &--px{
+        padding-right: $v_spacing;
+    }
+
+}
+
+
+
+/*=======================
+Espaçamentos Horizontais
+=======================*/
+
+/*=====
+Margin
+=====*/
+
+.u-marginHorizontal{
+    margin-top: $v_spacing;
+    margin-bottom: $v_spacing;
+    &--inter{
+        margin-top: $v_spacing / 2;
+        margin-bottom: $v_spacing / 2;
+        &--half{
+         margin-top:$v_spacing / 4;
+         margin-bottom:$v_spacing / 4;
+        }
+    }
+    &--vrt {
+            margin: $v_spacing $h_spacing $v_spacing $h_spacing;
+    }
+
+}
+.u-marginTop{
+    margin-top: $v_spacing;
+    &--inter{
+        margin-top: $v_spacing / 2;
+        &--half{
+         margin-top:$v_spacing / 4;
+        }   
+    }
+}
+.u-marginBottom{
+    margin-bottom: $v_spacing;
+    &--inter{
+        margin-bottom:$v_spacing / 2;
+        &--half{
+         margin-bottom:$v_spacing / 4;
+        }
+    }
+}
+
+/*=====
+Padding Horizontal
+=====*/
+
+
+.u-paddingHorizontal{
+    padding-top: $v_spacing;
+    padding-bottom: $v_spacing;
+    &--inter{
+        padding-top: $v_spacing / 2;
+        padding-bottom: $v_spacing / 2;
+        &--half{
+         padding-top:$v_spacing / 4;
+         padding-bottom:$v_spacing / 4;
+        }
+    }
+
+    &--vrt {
+        padding: $v_spacing $h_spacing $v_spacing $h_spacing;
+        &--px{
+            padding: $v_spacing;
+        }
+        &--inter{
+            padding: $v_spacing / 2 $h_spacing / 2 $v_spacing / 2 $h_spacing / 2;
+            &--px{
+                padding: $v_spacing / 2;
+            }
+            &--half{
+                padding: $v_spacing / 4 $h_spacing / 4 $v_spacing / 4 $h_spacing / 4;
+                &--px{
+                     padding: $v_spacing / 4;
+                }
+            }
+        }
+    }
+
+}
+.u-paddingTop{
+    padding-top: $v_spacing;
+    &--inter{
+        padding-top: $v_spacing / 2;
+        &--half{
+         padding-top:$v_spacing / 4;
+        }   
+    }
+}
+.u-paddingBottom{
+    padding-bottom: $v_spacing;
+    &--inter{
+        padding-bottom:$v_spacing / 2;
+        &--half{
+         padding-bottom:$v_spacing / 4;
+        }
+    }
+}
+
+//=========================
+// Margins of Sizes
+//=========================
+
+$v_spacing: $v_spacing / 2;
+
+
+$calc: $v_spacing / 1.25;
+.u-marginOutBottom1{
+    margin-bottom: -$calc;
+}
+$calc: $v_spacing / 1.25 * 2;
+.u-marginOutBottom2{
+    margin-bottom: -$calc;
+}
+$calc: $v_spacing / 1.25 * 3;
+.u-marginOutBottom3{
+    margin-bottom: -$calc;
+}
+$calc: $v_spacing / 1.25 / 2;
+.u-marginOutBottom1--half{
+    margin-bottom: -$calc;
+}
+
+$v_spacing: $v_spacing * 2;

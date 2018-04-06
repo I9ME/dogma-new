@@ -1,0 +1,157 @@
+/*
+Theme Name:     Beleza Urbana
+Theme URI:      http://loja.belezaurbanamoda.com/
+Description:    Beleza Urbana
+Author:         Diogo Soares - I9ME Web & Design
+Author URI:     http://www.i9me.com.br/
+Template:       storefront                             
+Version:        2.2.8
+*/
+
+
+
+//==========================================================================
+// CONFIGURAÇÕES
+//==========================================================================
+
+
+@charset "UTF-8";
+//@import './skeletonscss/images/includes/_sprites.scss';
+@import "config.scss";
+
+//=====
+//TESTES
+//=====	
+
+.color_1{
+	background: $color_1;
+}
+.color_2{
+	background: $color_2;
+}
+.color_3{
+	background: $color_3;
+}
+.color_4{
+	background: $color_4;
+}
+.color_5{
+	background: $color_5;
+}
+.color_6{
+	background: $color_6;
+}
+.color_7{
+	background: $color_7;
+}
+.color_8{
+	background: $color_8;
+}
+
+//==========================================================================
+// IMPORTANDO AS PARTES DO ESTILO
+//==========================================================================
+
+//==============================
+// Base
+//==============================
+
+@import './skeletonscss/base/index.scss';
+
+//==============================
+// Layout
+//==============================
+//@import: Footer | Front page | Header | Pages | Posts | Regular Content | Sections
+
+@import './skeletonscss/layout/index.scss';
+
+
+//==============================
+// Utilities
+//==============================
+// @import: Align | Before & After | Display | Flex | Layout | Link | Offset | Position | Size | Space | Text | Color | State | Icon
+
+@import './skeletonscss/utilities/index.scss';
+
+//==============================
+// Components
+//============================== 
+// @Import Arrange  | Button  | Flex Embed | Grid
+
+@import './skeletonscss/components/index.scss';
+
+
+
+//==============================
+// Navigation
+//==============================
+
+@import './skeletonscss/navigation/index.scss';
+ 
+
+//==============================
+// Sizess
+//==============================
+
+@import './skeletonscss/sizes/index.scss';
+
+//==============================
+// Grids
+//==============================
+
+@import './skeletonscss/grids/index.scss';
+
+//==============================
+// Columns
+//==============================
+
+@import './skeletonscss/columns/index.scss';
+
+//==============================
+// Rows
+//==============================
+
+@import './skeletonscss/rows/index.scss';
+
+//==============================
+// Lists
+//==============================
+
+@import './skeletonscss/lists/index.scss';
+
+
+//==============================
+// Images
+//==============================
+//@import: Figures | Icons | Images
+
+
+@import './skeletonscss/images/index.scss';
+//==============================
+// Sprites
+//==============================
+
+//==============================
+// Forms
+//==============================
+
+@import './skeletonscss/forms/index.scss';
+
+
+//==============================
+// Animates
+//==============================
+
+
+@import './skeletonscss/animates/index.scss';
+
+
+//==============================
+// Plugins
+//==============================
+
+@import './skeletonscss/plugins/index.scss';
+
+
+
+

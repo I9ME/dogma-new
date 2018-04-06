@@ -1,0 +1,73 @@
+
+//==============================
+// Variables
+//==============================
+
+//== colors tests =================
+
+$color_1: #FFFFFF;
+$color_2: #000000;
+$color_3: #444444;
+$color_4: #777777;
+$color_5: #999999;
+$color_6: #BBBBBB;
+$color_7: #CCCCCC;
+$color_8: #777777;
+$color_9: #999999;
+$color_10: #BBBBBB;
+$color_11: #CCCCCC;
+$color_12: #CCCCCC;
+$color_13: #f1f7a0;
+$color_14: #f5d63a;
+
+
+
+//== Utilities =================
+//Colors
+$cor_lilas: #4f4872;
+$cor_yellow: #feb933;
+
+//Fonts
+$fontFamily: "Source Sans Pro",HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+$font_size_text: 16px;
+$font_size_title_section: 30px;
+$font_size_subtitle_section: 20px;
+$font_size_title_item: 24px;
+$font_size_subtitle_item: 18px;
+
+
+//== Layout =====================
+//Regular Content
+$h_spacing: 4.166666666666667%;
+$v_spacing: 35px;
+
+//== Sizes =====================
+
+//Natural
+$numColumns: 24;
+$sizeColumns: 4.166666666666667%;
+$sizeColumns_px: 50px;
+
+
+
+//==============================
+// Components
+//==============================
+
+
+
+//==============================
+// Variables in queries
+//==============================
+
+
+$break-sm: 768px;
+$break-md: 960px;
+$break-lg: 1200px;
+$break-ex: 1400px;
+
+
+//==============================
+// Animate
+//==============================
+$time_animate: 0.5s; 

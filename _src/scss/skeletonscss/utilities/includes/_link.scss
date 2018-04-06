@@ -1,0 +1,29 @@
+.Button{
+	&--border{
+		border-width:2px;
+		border-style: solid;
+	}
+	&.hover{
+		@media screen and (min-width: $break-sm){
+			&:hover{
+				background: $color_3 !important;
+				border-color: $color_3 !important;
+				color: $color_2 !important;
+			}
+		}
+	}
+	font-weight: bold;
+	line-height:31px;
+	min-height: 31px;
+	&--largeSize{
+		padding: 10px 25px !important;
+	}
+
+	&--mediumSize{
+		padding: 5px 15px !important;
+	}
+
+	&--smallSize{
+		padding: 2.5px 8px !important;
+	}
+}

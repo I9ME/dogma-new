@@ -1,0 +1,36 @@
+
+.u-flexItensCenter{
+	
+}
+.u-alignCenter{
+	text-align: center;
+	&--mobile{
+		@media screen and (max-width: $break-sm){
+			text-align: center;
+		}
+	}
+}
+.u-alignLeft{
+	text-align: left;
+}
+.u-alignRight{
+	text-align: right;
+}
+.u-alignJustify{
+	text-align: justify;
+}
+.u-alignCenterBox{
+	margin-left: auto;
+	margin-right: auto;
+}
+.u-absoluteCenter{
+	position: absolute;
+	left: 50% !important;
+	transform: translateX(-50%) !important;
+}
+.u-absoluteCenterMiddle{
+	position: absolute;
+	left: 50% !important;
+	top: 50% !important;
+	transform: translateX(-50%) translateY(-50%) !important;
+}

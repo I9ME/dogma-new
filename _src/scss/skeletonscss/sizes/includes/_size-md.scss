@@ -1,0 +1,542 @@
+/**
+ * @define utilities
+ * Size: breakpoint 2 (medium)
+ */
+/**
+ * @define utilities
+ * Sizing utilities
+ */
+
+/* Proportional widths
+   ========================================================================== */
+
+/**
+ * Specify the proportional width of an object.
+ * Intentional redundancy build into each set of unit classes.
+ * Supports: 2, 3, 4, 5, 6, 8, 10, 12 part
+ *
+ * 1. Use `flex-basis: auto` with a width to avoid box-sizing bug in IE10/11
+ *    http://git.io/vllMD
+ */
+
+
+//==================
+//SIZES
+//==================
+
+$varSize: 1;
+.u-size#{$varSize}of#{$numColumns} {
+  width: calc(#{$sizeColumns} * #{$varSize}) !important;
+  &--px {
+    width: calc(#{$sizeColumns_px} * #{$varSize} ) !important;
+  }
+}
+
+$varSize: 2;
+.u-size#{$varSize}of#{$numColumns} {
+  width: calc(#{$sizeColumns} * #{$varSize}) !important;
+  &--px {
+    width: calc(#{$sizeColumns_px} * #{$varSize} ) !important;
+  }
+}
+
+$varSize: 3;
+.u-size#{$varSize}of#{$numColumns} {
+  width: calc(#{$sizeColumns} * #{$varSize}) !important;
+  &--px {
+    width: calc(#{$sizeColumns_px} * #{$varSize} ) !important;
+  }
+}
+
+$varSize: 4;
+.u-size#{$varSize}of#{$numColumns} {
+  width: calc(#{$sizeColumns} * #{$varSize}) !important;
+  &--px {
+    width: calc(#{$sizeColumns_px} * #{$varSize} ) !important;
+  }
+}
+
+$varSize: 5;
+.u-size#{$varSize}of#{$numColumns} {
+  width: calc(#{$sizeColumns} * #{$varSize}) !important;
+  &--px {
+    width: calc(#{$sizeColumns_px} * #{$varSize} ) !important;
+  }
+}
+
+
+$varSize: 6;
+.u-size#{$varSize}of#{$numColumns} {
+  width: calc(#{$sizeColumns} * #{$varSize}) !important;
+  &--px {
+    width: calc(#{$sizeColumns_px} * #{$varSize} ) !important;
+  }
+}
+
+$varSize: 7;
+.u-size#{$varSize}of#{$numColumns} {
+  width: calc(#{$sizeColumns} * #{$varSize}) !important;
+  &--px {
+    width: calc(#{$sizeColumns_px} * #{$varSize} ) !important;
+  }
+}
+
+$varSize: 8;
+.u-size#{$varSize}of#{$numColumns} {
+  width: calc(#{$sizeColumns} * #{$varSize}) !important;
+  &--px {
+    width: calc(#{$sizeColumns_px} * #{$varSize} ) !important;
+  }
+}
+
+
+$varSize: 9;
+.u-size#{$varSize}of#{$numColumns} {
+  width: calc(#{$sizeColumns} * #{$varSize}) !important;
+  &--px {
+    width: calc(#{$sizeColumns_px} * #{$varSize} ) !important;
+  }
+}
+
+$varSize: 10;
+.u-size#{$varSize}of#{$numColumns} {
+  width: calc(#{$sizeColumns} * #{$varSize}) !important;
+  &--px {
+    width: calc(#{$sizeColumns_px} * #{$varSize} ) !important;
+  }
+}
+
+$varSize: 11;
+.u-size#{$varSize}of#{$numColumns} {
+  width: calc(#{$sizeColumns} * #{$varSize}) !important;
+  &--px {
+    width: calc(#{$sizeColumns_px} * #{$varSize} ) !important;
+  }
+}
+
+$varSize: 12;
+.u-size#{$varSize}of#{$numColumns} {
+  width: calc(#{$sizeColumns} * #{$varSize}) !important;
+  &--px {
+    width: calc(#{$sizeColumns_px} * #{$varSize} ) !important;
+  }
+}
+
+$varSize: 13;
+.u-size#{$varSize}of#{$numColumns} {
+  width: calc(#{$sizeColumns} * #{$varSize}) !important;
+  &--px {
+    width: calc(#{$sizeColumns_px} * #{$varSize} ) !important;
+  }
+}
+
+
+$varSize: 14;
+.u-size#{$varSize}of#{$numColumns} {
+  width: calc(#{$sizeColumns} * #{$varSize}) !important;
+  &--px {
+    width: calc(#{$sizeColumns_px} * #{$varSize} ) !important;
+  }
+}
+
+$varSize: 15;
+.u-size#{$varSize}of#{$numColumns} {
+  width: calc(#{$sizeColumns} * #{$varSize}) !important;
+  &--px {
+    width: calc(#{$sizeColumns_px} * #{$varSize} ) !important;
+  }
+}
+
+$varSize: 16;
+.u-size#{$varSize}of#{$numColumns} {
+  width: calc(#{$sizeColumns} * #{$varSize}) !important;
+  &--px {
+    width: calc(#{$sizeColumns_px} * #{$varSize} ) !important;
+  }
+}
+
+$varSize: 6;
+.u-size#{$varSize}of#{$numColumns} {
+  width: calc(#{$sizeColumns} * #{$varSize}) !important;
+  &--px {
+    width: calc(#{$sizeColumns_px} * #{$varSize} ) !important;
+  }
+}
+
+$varSize: 17;
+.u-size#{$varSize}of#{$numColumns} {
+  width: calc(#{$sizeColumns} * #{$varSize}) !important;
+  &--px {
+    width: calc(#{$sizeColumns_px} * #{$varSize} ) !important;
+  }
+}
+
+$varSize: 18;
+.u-size#{$varSize}of#{$numColumns} {
+  width: calc(#{$sizeColumns} * #{$varSize}) !important;
+  &--px {
+    width: calc(#{$sizeColumns_px} * #{$varSize} ) !important;
+  }
+}
+
+
+$varSize: 19;
+.u-size#{$varSize}of#{$numColumns} {
+  width: calc(#{$sizeColumns} * #{$varSize}) !important;
+  &--px {
+    width: calc(#{$sizeColumns_px} * #{$varSize} ) !important;
+  }
+}
+
+$varSize: 10;
+.u-size#{$varSize}of#{$numColumns} {
+  width: calc(#{$sizeColumns} * #{$varSize}) !important;
+  &--px {
+    width: calc(#{$sizeColumns_px} * #{$varSize} ) !important;
+  }
+}
+
+$varSize: 20;
+.u-size#{$varSize}of#{$numColumns} {
+  width: calc(#{$sizeColumns} * #{$varSize}) !important;
+  &--px {
+    width: calc(#{$sizeColumns_px} * #{$varSize} ) !important;
+  }
+}
+
+$varSize: 21;
+.u-size#{$varSize}of#{$numColumns} {
+  width: calc(#{$sizeColumns} * #{$varSize}) !important;
+  &--px {
+    width: calc(#{$sizeColumns_px} * #{$varSize} ) !important;
+  }
+}
+
+$varSize: 22;
+.u-size#{$varSize}of#{$numColumns} {
+  width: calc(#{$sizeColumns} * #{$varSize}) !important;
+  &--px {
+    width: calc(#{$sizeColumns_px} * #{$varSize} ) !important;
+  }
+}
+
+
+$varSize: 23;
+.u-size#{$varSize}of#{$numColumns} {
+  width: calc(#{$sizeColumns} * #{$varSize}) !important;
+  &--px {
+    width: calc(#{$sizeColumns_px} * #{$varSize} ) !important;
+  }
+}
+
+$varSize: 24;
+.u-size#{$varSize}of#{$numColumns} {
+  width: calc(#{$sizeColumns} * #{$varSize}) !important;
+  &--px {
+    width: calc(#{$sizeColumns_px} * #{$varSize} ) !important;
+  }
+}
+
+
+//=====================================
+// Sizes OFF
+//=====================================
+
+$varSize: 1;
+.u-sizeOff#{$varSize}of#{$numColumns} {
+  width: calc(100% - #{$sizeColumns} * #{$varSize}) !important;
+  &--px{
+    width: calc(100% - #{$sizeColumns_px} * #{$varSize}) !important;
+  }
+}
+
+$varSize: 2;
+.u-sizeOff#{$varSize}of#{$numColumns} {
+  width: calc(100% - #{$sizeColumns} * #{$varSize}) !important;
+  &--px{
+    width: calc(100% - #{$sizeColumns_px} * #{$varSize}) !important;
+  }
+}
+
+$varSize: 3;
+.u-sizeOff#{$varSize}of#{$numColumns} {
+  width: calc(100% - #{$sizeColumns} * #{$varSize}) !important;
+  &--px{
+    width: calc(100% - #{$sizeColumns_px} * #{$varSize}) !important;
+  }
+}
+
+$varSize: 4;
+.u-sizeOff#{$varSize}of#{$numColumns} {
+  width: calc(100% - #{$sizeColumns} * #{$varSize}) !important;
+  &--px{
+    width: calc(100% - #{$sizeColumns_px} * #{$varSize}) !important;
+  }
+}
+
+$varSize: 5;
+.u-sizeOff#{$varSize}of#{$numColumns} {
+  width: calc(100% - #{$sizeColumns} * #{$varSize}) !important;
+  &--px{
+    width: calc(100% - #{$sizeColumns_px} * #{$varSize}) !important;
+  }
+}
+
+$varSize: 6;
+.u-sizeOff#{$varSize}of#{$numColumns} {
+  width: calc(100% - #{$sizeColumns} * #{$varSize}) !important;
+  &--px{
+    width: calc(100% - #{$sizeColumns_px} * #{$varSize}) !important;
+  }
+}
+
+$varSize: 7;
+.u-sizeOff#{$varSize}of#{$numColumns} {
+  width: calc(100% - #{$sizeColumns} * #{$varSize}) !important;
+  &--px{
+    width: calc(100% - #{$sizeColumns_px} * #{$varSize}) !important;
+  }
+}
+
+$varSize: 8;
+.u-sizeOff#{$varSize}of#{$numColumns} {
+  width: calc(100% - #{$sizeColumns} * #{$varSize}) !important;
+  &--px{
+    width: calc(100% - #{$sizeColumns_px} * #{$varSize}) !important;
+  }
+}
+
+$varSize: 9;
+.u-sizeOff#{$varSize}of#{$numColumns} {
+  width: calc(100% - #{$sizeColumns} * #{$varSize}) !important;
+  &--px{
+    width: calc(100% - #{$sizeColumns_px} * #{$varSize}) !important;
+  }
+}
+
+$varSize: 10;
+.u-sizeOff#{$varSize}of#{$numColumns} {
+  width: calc(100% - #{$sizeColumns} * #{$varSize}) !important;
+  &--px{
+    width: calc(100% - #{$sizeColumns_px} * #{$varSize}) !important;
+  }
+}
+
+
+$varSize: 11;
+.u-sizeOff#{$varSize}of#{$numColumns} {
+  width: calc(100% - #{$sizeColumns} * #{$varSize}) !important;
+  &--px{
+    width: calc(100% - #{$sizeColumns_px} * #{$varSize}) !important;
+  }
+}
+$varSize: 12;
+.u-sizeOff#{$varSize}of#{$numColumns} {
+  width: calc(100% - #{$sizeColumns} * #{$varSize}) !important;
+  &--px{
+    width: calc(100% - #{$sizeColumns_px} * #{$varSize}) !important;
+  }
+}
+
+
+$varSize: 13;
+.u-sizeOff#{$varSize}of#{$numColumns} {
+  width: calc(100% - #{$sizeColumns} * #{$varSize}) !important;
+  &--px{
+    width: calc(100% - #{$sizeColumns_px} * #{$varSize}) !important;
+  }
+}
+
+$varSize: 14;
+.u-sizeOff#{$varSize}of#{$numColumns} {
+  width: calc(100% - #{$sizeColumns} * #{$varSize}) !important;
+  &--px{
+    width: calc(100% - #{$sizeColumns_px} * #{$varSize}) !important;
+  }
+}
+
+$varSize: 15;
+.u-sizeOff#{$varSize}of#{$numColumns} {
+  width: calc(100% - #{$sizeColumns} * #{$varSize}) !important;
+  &--px{
+    width: calc(100% - #{$sizeColumns_px} * #{$varSize}) !important;
+  }
+}
+
+$varSize: 16;
+.u-sizeOff#{$varSize}of#{$numColumns} {
+  width: calc(100% - #{$sizeColumns} * #{$varSize}) !important;
+  &--px{
+    width: calc(100% - #{$sizeColumns_px} * #{$varSize}) !important;
+  }
+}
+
+$varSize: 17;
+.u-sizeOff#{$varSize}of#{$numColumns} {
+  width: calc(100% - #{$sizeColumns} * #{$varSize}) !important;
+  &--px{
+    width: calc(100% - #{$sizeColumns_px} * #{$varSize}) !important;
+  }
+}
+
+$varSize: 18;
+.u-sizeOff#{$varSize}of#{$numColumns} {
+  width: calc(100% - #{$sizeColumns} * #{$varSize}) !important;
+  &--px{
+    width: calc(100% - #{$sizeColumns_px} * #{$varSize}) !important;
+  }
+}
+
+$varSize: 19;
+.u-sizeOff#{$varSize}of#{$numColumns} {
+  width: calc(100% - #{$sizeColumns} * #{$varSize}) !important;
+  &--px{
+    width: calc(100% - #{$sizeColumns_px} * #{$varSize}) !important;
+  }
+}
+
+$varSize: 20;
+.u-sizeOff#{$varSize}of#{$numColumns} {
+  width: calc(100% - #{$sizeColumns} * #{$varSize}) !important;
+  &--px{
+    width: calc(100% - #{$sizeColumns_px} * #{$varSize}) !important;
+  }
+}
+
+
+$varSize: 21;
+.u-sizeOff#{$varSize}of#{$numColumns} {
+  width: calc(100% - #{$sizeColumns} * #{$varSize}) !important;
+  &--px{
+    width: calc(100% - #{$sizeColumns_px} * #{$varSize}) !important;
+  }
+}
+
+
+$varSize: 22;
+.u-sizeOff#{$varSize}of#{$numColumns} {
+  width: calc(100% - #{$sizeColumns} * #{$varSize}) !important;
+  &--px{
+    width: calc(100% - #{$sizeColumns_px} * #{$varSize}) !important;
+  }
+}
+
+
+$varSize: 23;
+.u-sizeOff#{$varSize}of#{$numColumns} {
+  width: calc(100% - #{$sizeColumns} * #{$varSize}) !important;
+  &--px{
+    width: calc(100% - #{$sizeColumns_px} * #{$varSize}) !important;
+  }
+}
+
+
+$varSize: 24;
+.u-sizeOff#{$varSize}of#{$numColumns} {
+  width: calc(100% - #{$sizeColumns} * #{$varSize}) !important;
+  &--px{
+    width: calc(100% - #{$sizeColumns_px} * #{$varSize}) !important;
+  }
+}
+
+
+//============================================================================
+// HEIGHT
+//============================================================================
+
+.u-height1of10{
+  height: $sizeColumns_px;
+}
+
+.u-height2of10{
+  height: $sizeColumns_px * 2;
+}
+
+.u-height3of10{
+  height: $sizeColumns_px * 3;
+}
+
+.u-height4of10{
+  height: $sizeColumns_px * 4;
+}
+
+.u-height5of10{
+  height: $sizeColumns_px * 5;
+}
+
+.u-height6of10{
+  height: $sizeColumns_px * 6;
+}
+
+.u-height7of10{
+  height: $sizeColumns_px * 7;
+}
+
+.u-height8of10{
+  height: $sizeColumns_px * 8;
+}
+
+.u-height9of10{
+  height: $sizeColumns_px * 9;
+}
+
+.u-height10of10{
+  height: $sizeColumns_px * 10;
+}
+
+.u-sizeHeight100{
+  height: 100%;
+}
+
+.u-sizeHeight100vh{
+  height: 100vh;
+}
+.u-heightAuto{
+  height: auto;
+}
+
+
+/* Intrinsic widths
+   ========================================================================== */
+
+/**
+ * Make an element shrink wrap its content.
+ */
+
+.u-sizeFit {
+  flex-basis: auto !important;
+}
+
+/**
+ * Make an element fill the remaining space.
+ *
+ * 1. Be explicit to work around IE10 bug with shorthand flex
+ *    http://git.io/vllC7
+ * 2. IE10 ignores previous `flex-basis` value. Setting again here fixes
+ *    http://git.io/vllMt
+ */
+
+.u-sizeFill {
+  flex: 1 1 0% !important; /* 1 */
+  flex-basis: 0% !important; /* 2 */
+}
+
+/**
+ * An alternative method to make an element fill the remaining space.
+ * Distributes space based on the initial width and height of the element
+ *
+ * http://www.w3.org/TR/css-flexbox/images/rel-vs-abs-flex.svg
+ */
+
+.u-sizeFillAlt {
+  flex: 1 1 auto !important;
+  flex-basis: auto !important;
+}
+
+/**
+ * Make an element the width of its parent.
+ */
+
+.u-sizeFull {
+  width: 100% !important;
+}

@@ -1,0 +1,56 @@
+.u-borderRadius5{
+	border-radius: 5px;
+}
+.u-borderRadius10{
+	border-radius: 10px;
+}
+.u-borderRadius20{
+	border-radius: 20px;
+}
+.u-borderRadius30{
+	border-radius: 30px;
+}
+.u-borderRadius40{
+	border-radius: 40px;
+}
+.u-borderRadius50{
+	border-radius: 50px;
+}
+.u-boxShadow{
+	box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.5);
+	&--hover{
+		&:hover{
+			box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
+		}
+	}
+	@media screen and (min-width: $break-sm){
+		box-shadow: 0px 0px 35px -5px rgba(0,0,0,0.5);
+		&--hover{
+			&:hover{
+				box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
+			}
+		}	
+	}
+}
+.u-onlyMobile{
+	@media screen and (min-width: $break-md){
+		display: none !important;
+	}
+}
+
+.u-onlyDesktop{
+	@media screen and (max-width: $break-md){
+		display: none !important;
+	}
+}
+
+@media (min-width: 768px) {
+	.main-navigation ul.menu ul li a, 
+	.main-navigation ul.nav-menu ul li a {
+	    padding: 0.5em 1.41575em;
+	}
+	.main-navigation ul.menu ul li:last-child a, 
+	.main-navigation ul.nav-menu ul li:last-child a{
+		padding-bottom: 1em;
+	}
+}

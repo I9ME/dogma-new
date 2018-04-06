@@ -1,0 +1,6 @@
+@import './includes/sprites';
+@include sprites($spritesheet-sprites);
+
+@import './includes/figure';
+@import './includes/icon';
+@import './includes/img';
